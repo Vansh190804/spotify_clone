@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Web D"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web D"
+	}
+}

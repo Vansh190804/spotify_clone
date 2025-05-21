@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+
+    <div class="whole">
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://open.spotify.com/">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="homesearch">
+                <div class="home">
+                    <a href="https://open.spotify.com/">
+                        <img src="img/home.svg" alt="">
+                    </a>
+                </div>
+                <div class="search">
+                    <a href="">
+                        <img class="searchimg" src="img/search.svg" alt="">
+                    </a>
+                    <input type="search" placeholder="What do you want to play?">
+                    <div class="verticalline"></div>
+                    <a href="">
+                        <img class="browseimg" src="img/browse.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="loginbuttons">
+                <button class="signup">
+                    Sign up
+                </button>
+                <button class="login">
+                    Log in
+                </button>
+            </div>
+        </nav>
+
+        <div class="middle">
+            <!-- left -->
+            <div class="left">
+                <div class="footer">
+                    <div class="library">
+                        <div>
+                            <img src="img/library.svg" alt="">
+                            <span>Your Library</span>
+                        </div>
+                        <button>
+                            <img class="add" src="img/Add.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <div class="createplaylist">
+                            <p class="line1">Create your own playlist</p>
+                            <p class="line2">It's easy we'll help you</p>
+                            <button>Create playlist</button>
+                        </div>
+                        <div class="browsepodcast">
+                            <p class="line1">Let's find some podcast to follow</p>
+                            <p class="line2">We'll keep you update on new episode</p>
+                            <button>Browse podcasts</button>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div class="faq">
+                            <a href="#">Legal</a>
+                            <a href="#">Safety & Privacy Center</a>
+                            <a href="#">Privacy policy</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">About Ads</a>
+                            <a href="#">Accessibility</a>
+                        </div>
+                        <a href="#" class="cookies">Cookies</a>
+                    </div>
+
+                    <button class="language">
+                        <img src="img/lang.svg" alt="">
+                        English
+                    </button>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="right">
+                <div>
+                    <section class="section_1">
+                        <div class="head">
+                            <a class="popular" href="">Popular artists</a>
+                            <a class="showall" href="">Show all</a>
+                        </div>
+
+                        <div class="foot">
+                        </div>
+                    </section>
+                </div>
+                <br>
+                <div>
+                    <section class="section_2">
+                        <img class="hamburgur" src="img/hamburgur.svg" alt="">
+                        <ul>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+<!-- Bottom -->
+        <div class="bottom">
+            <div class="playbar">
+                <div class="song_essentials">
+                </div>
+                <div class="song_controls">
+                    <div class="control_buttons">
+                        <button id="back"><img src="img/back.svg" alt=""></button>
+                        <button id="play" class="play"><img src="img/play.svg" alt=""></button>
+                        <button id="forward"><img src="img/forward.svg" alt=""></button>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="song_time">
+                    <div class="time" >
+                        00:00/00:00
+                    </div>
+                    <div class="volume">
+                        <img src="img/volume.svg" alt="">
+                        <input type="range" name="range">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
